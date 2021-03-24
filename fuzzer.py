@@ -1,8 +1,4 @@
-import pyfiglet
-word = pyfiglet.figlet_format('FUZZER')
-b = ("TOOL BY DRAKULA \n")
-c = ("ENTER THE WEBSITE WHICH DO YOU WANT TO SCAN")
-print(word + b + c)  
+  
 from socket import *
 import time
 startTime = time.time()
